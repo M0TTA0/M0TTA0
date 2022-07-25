@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>site</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Início</a>
+        <a href="projetos.html">projetos</a>
+    </header>
+
+
+    <main>
+        <section>
+            <h1 class="texto">primeiro cartão </h1>
+            <input type="text" placeholder="digite seu nome" class="entrada" id="c1-entrada"> 
+            <input type="button" value="ok" class="botao" onclick="exibirNome()">
+            <h3 id="c1-resultado">resultado</h3>
+        </section>
+
+        <section>
+            <h1 class="texto" id="c2-calculadora" >CALCULADORA</h1>
+            <input type="number" placeholder="digite um número" class="entrada">
+            <input type="number" placeholder="digite um número" class="entrada">
+            <h2 id="c3-botoes"></h2>
+            <input type="button" value="+" class="botao" onclick="calculando()">
+            <input type="button" value="-" class="botao" onclick="calculando()">
+            <input type="button" value="*" class="botao" onclick="calculando()">
+            <input type="button" value="/" class="botao" onclick="calculando()">
+            <h3>resultado:</h3>
+            <h2 id="c4-resultadoCalcu"></h2>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+body {
+    background: #283618;
+    font-family: Arima;
+    color: #FEFAE0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #606C38;
+    margin: 10px; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.botao {
+    cursor: pointer;
+    background-color: #DDA15E;
+    padding: 9px;
+    border-radius: 7px;
+    font-family:Raleway;
+}
+
+.entrada {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    font-family:Abril Fatface;
+}
+
+.botao:hover{
+    background-color: rgb(92, 92, 75);
+}
+
+.entrada:hover{
+    background-color: rgb(92, 92, 75);
+}
